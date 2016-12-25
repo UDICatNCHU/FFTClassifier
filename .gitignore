@@ -1,8 +1,16 @@
+json
+WikiRaw/cht
+WikiRaw/bz2
+# auto Created when execute gen_kcm.py
+.idea/
+.term_pair_freq*
+ChineseWikiRawData
+
+
 # Project stuff
-cal/cal/settings_database.py
-cal/timetable/migrations/*
+entrance/settings_database.py
+uwsgi.deploy.ini
 db.sqlite3
-crawler/Crawler-NCHU-course/json
 
 # virtualenv
 venv
@@ -79,4 +87,3 @@ coverage.xml
 docs/_build/
 
 # PyBuilder
-target/

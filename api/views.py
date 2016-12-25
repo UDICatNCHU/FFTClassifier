@@ -1,4 +1,4 @@
-from django.http import JsonResponse
+from django.http import JsonResponse#to make the web exe
 from djangoApiDec.djangoApiDec import queryString_required
 
 # Create your views here.
@@ -11,4 +11,4 @@ def bayes(request):
 	y = [0.5, 2.5]
 	clf = svm.SVR()
 	clf.fit(X, y) 
-	return JsonResponse(list(clf.predict([fft])), safe=False)
+	return JsonResponse(list(clf.predict([fft])), safe=False)#JsonResponse(the output you want to show),if safe=True->can't use array
