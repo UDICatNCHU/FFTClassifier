@@ -1,0 +1,8 @@
+Django==1.10.3
+-e git+https://github.com/Stufinite/djangoApiDec.py.git@7d8c5beaad6d89b26a97f65c25929515b267ffe9#egg=djangoApiDec
+numpy==1.11.3
+requests==2.12.4
+scikit-learn==0.18.1
+scipy==0.18.1
+simplejson==3.10.0
+sklearn==0.0
